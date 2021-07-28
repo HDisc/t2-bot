@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "t2-bot-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-j3h08ytv74s"
+s3_prefix = "t2-bot-stack"
+region = "ap-northeast-1"
+profile = "serverlessUserAWS"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
