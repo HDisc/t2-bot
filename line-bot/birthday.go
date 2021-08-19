@@ -70,16 +70,16 @@ func receivePostback(bot *linebot.Client, event *linebot.Event) {
 
 	presentMap := map[string]*presentInfo{
 		"a": {
-			URL:     "https://lh3.googleusercontent.com/pw/AM-JKLXOGEbOfR9xYrHpg8ezSkyaNEi95RUouSUHbCJZF3mcEbmJyKoSSn3EdBXDdYg3CC1TO0WJo6yi-Fox-_tliXWrEb3N2VttNcVamvbLdCJ-hoYTgDtT-iD4oisZinzx5aQZehVCoI1u3tfJETwfMNOc=w1440-h810-no?authuser=0",
-			Caption: "Aはオリンピック観戦のチケット(権利)です！\nテレビで観戦しよう！",
+			URL:     "https://lh3.googleusercontent.com/pw/AM-JKLWNQpQngugw70MsOX0A0g1yFYCkGPU2A7zUKD2cjX-qIf9nLcmV0a-KwaKWNSbKCggyFi1yHE6kJTLok6aYBXoir2RcS59syO68kfG92zNLQ8vhlm26SWAcgt5vvKpiTyFq7seRz1mMPgOmn_oY6pVR=w978-h1442-no?authuser=0",
+			Caption: "Aを選んだ君は輝いてるよ！",
 		},
 		"b": {
-			URL:     "https://lh3.googleusercontent.com/pw/AM-JKLUZHDs546akVKAUOEdHv1K4vApRJBvVYZUCT6ZAutppnVEnX9uvxA7sdkQColNHHmFJmWws2nKUO92dVe2h2WSd1bIgLzEHt5q0CY88EDSxddYDLheRGV3hPQeV0Ad0_QmgopEBiQI-d8IEgw-w_hBL=s750-no?authuser=0",
-			Caption: "Bはアイスです！",
+			URL:     "https://lh3.googleusercontent.com/pw/AM-JKLUrW-2q1YsVh0Q3-ziYGp4C_Gd9o4DMmQeOA-Acay2Ejh4wVJech5OKGlVOzFM_rziC7DVN8h2E9CqBUIILg163zuAyGVHjAq90cUuonxXUqp34WSFua78h7U9TJkDXDGvKpWZo7gmhWQqRdEaybHWi=s749-no?authuser=0",
+			Caption: "Bはからあげクンとハイボールです",
 		},
 		"c": {
 			URL:     "https://lh3.googleusercontent.com/pw/AM-JKLUZHDs546akVKAUOEdHv1K4vApRJBvVYZUCT6ZAutppnVEnX9uvxA7sdkQColNHHmFJmWws2nKUO92dVe2h2WSd1bIgLzEHt5q0CY88EDSxddYDLheRGV3hPQeV0Ad0_QmgopEBiQI-d8IEgw-w_hBL=s750-no?authuser=0",
-			Caption: "Cはアイスです！",
+			Caption: "Cはアイスです",
 		},
 	}
 
